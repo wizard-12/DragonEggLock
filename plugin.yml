@@ -1,0 +1,14 @@
+name: DragonEggLock
+version: 1.0
+main: com.example.dragonegglock.DragonEggLock
+api-version: 1.21
+description: Prevents Dragon Eggs from being placed or stored in containers.
+commands:
+  dragonegglock:
+    description: Toggle Dragon Egg Lock
+    usage: /<command> <on|off|status>
+    permission: dragonegglock.toggle
+permissions:
+  dragonegglock.toggle:
+    description: Allows using /dragonegglock
+    default: op
